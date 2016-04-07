@@ -105,7 +105,6 @@
       <suiteXmlFiles>
         <suiteXmlFile>src/main/java/suite/Suite.xml</suiteXmlFile>
       </suiteXmlFiles>
-                <skipTests>true</skipTests>
       
     </configuration>
   </plugin>
