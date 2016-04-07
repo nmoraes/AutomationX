@@ -1,7 +1,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="TestAll" parallel="tests" thread-count="10">
 
-<parameter name="selenium.browser" value="CHROME" />
+<parameter name="selenium.browser" value="SOUCELABS" />
 
 
 <test name="MercadoLibre">
