@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestAll" duration-ms="7479" started-at="2016-04-07T01:08:02Z" finished-at="2016-04-07T01:08:09Z">
+    <groups>
+    </groups>
+    <test name="MercadoLibreSearch" duration-ms="7072" started-at="2016-04-07T01:08:02Z" finished-at="2016-04-07T01:08:09Z">
+      <class name="test.MercadoLibreSearchTest">
+        <test-method status="PASS" signature="testSearch(java.lang.String)[pri:0, instance:test.MercadoLibreSearchTest@4e0b495e]" name="testSearch" duration-ms="7009" started-at="2016-04-07T01:08:02Z" finished-at="2016-04-07T01:08:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iphone]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- testSearch -->
+      </class> <!-- test.MercadoLibreSearchTest -->
+      <class name="test.MercadoLibreTest">
+        <test-method status="PASS" signature="tearUp(org.testng.ITestContext)[pri:0, instance:test.MercadoLibreTest@7a431fd]" name="tearUp" is-config="true" duration-ms="14404" started-at="2016-04-07T01:07:38Z" finished-at="2016-04-07T01:07:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@565c852a]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- tearUp -->
+        <test-method status="PASS" signature="tearUp(org.testng.ITestContext)[pri:0, instance:test.MercadoLibreSearchTest@4e0b495e]" name="tearUp" is-config="true" duration-ms="9401" started-at="2016-04-07T01:07:52Z" finished-at="2016-04-07T01:08:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@565c852a]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- tearUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.MercadoLibreTest@7a431fd]" name="tearDown" is-config="true" duration-ms="1965" started-at="2016-04-07T01:08:09Z" finished-at="2016-04-07T01:08:11Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.MercadoLibreSearchTest@4e0b495e]" name="tearDown" is-config="true" duration-ms="2066" started-at="2016-04-07T01:08:11Z" finished-at="2016-04-07T01:08:13Z">
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.MercadoLibreTest -->
+    </test> <!-- MercadoLibreSearch -->
+    <test name="MercadoLibre" duration-ms="7479" started-at="2016-04-07T01:08:02Z" finished-at="2016-04-07T01:08:09Z">
+      <class name="test.MercadoLibreTest">
+        <test-method status="PASS" signature="testLoginAdmin(java.lang.String)[pri:0, instance:test.MercadoLibreTest@7a431fd]" name="testLoginAdmin" duration-ms="7418" started-at="2016-04-07T01:08:02Z" finished-at="2016-04-07T01:08:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ipad2]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- testLoginAdmin -->
+      </class> <!-- test.MercadoLibreTest -->
+    </test> <!-- MercadoLibre -->
+  </suite> <!-- TestAll -->
+</testng-results>

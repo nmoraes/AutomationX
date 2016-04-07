@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" name="Failed suite [TestAll]" parallel="tests">
+  <parameter name="search" value="iphone"/>
+  <parameter name="selenium.browser" value="SOUCELABS"/>
+  <test name="MercadoLibre(failed)" parallel="tests">
+    <parameter name="search" value="ipad2"/>
+    <classes>
+      <class name="test.MercadoLibreTest">
+        <methods>
+          <include name="testLoginAdmin"/>
+          <include name="tearUp"/>
+        </methods>
+      </class> <!-- test.MercadoLibreTest -->
+    </classes>
+  </test> <!-- MercadoLibre(failed) -->
+  <test name="MercadoLibreSearch(failed)" parallel="tests">
+    <parameter name="search" value="iphone"/>
+    <classes>
+      <class name="test.MercadoLibreTest">
+        <methods>
+          <include name="tearUp"/>
+        </methods>
+      </class> <!-- test.MercadoLibreTest -->
+      <class name="test.MercadoLibreSearchTest">
+        <methods>
+          <include name="testSearch"/>
+        </methods>
+      </class> <!-- test.MercadoLibreSearchTest -->
+    </classes>
+  </test> <!-- MercadoLibreSearch(failed) -->
+</suite> <!-- Failed suite [TestAll] -->
